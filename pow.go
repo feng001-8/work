@@ -86,7 +86,7 @@ func GenRsaKey(bits int) (privateKey, publicKey string) {
 }
 
 func main() {
-	nickname := "zwg"
+	nickname := "zhangwnege"
 
 	// 寻找4个0开头的哈希值
 	data := findHashWithZeros(4, nickname)
