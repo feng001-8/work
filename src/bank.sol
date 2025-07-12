@@ -10,13 +10,13 @@ pragma solidity ^0.8.0;
 注意：此合约没有处理边界值
 */
 
-
+import "../src/IBank.sol";
 
 // 可以通过 Metamask 等钱包直接给 Bank 合约地址存款
 
-contract Bank{
+contract Bank is IBank {
     // 管理员地址
-    address owner;
+    address internal owner;
     //数组
     address[3] public arr;
 
@@ -29,13 +29,13 @@ contract Bank{
     mapping(address => uint256)public balances;
 
     // 编写 withdraw() 方法，仅管理员可以通过该方法提取资金。
-    function withdraw()public {
+    function withdraw()public virtual{
         require(msg.sender == owner, "Only owner can withdraw");
         payable(owner).transfer(address(this).balance);
     }
 
     // 用数组记录存款金额的前 3 名用户
-function deposit() public payable {
+function deposit() public payable virtual {
         require(msg.value > 0, "Deposit amount must be greater than 0");
         balances[msg.sender] += msg.value;
 
@@ -64,5 +64,6 @@ function deposit() public payable {
             }
         }
     }
+
 
 }
