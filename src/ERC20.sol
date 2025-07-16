@@ -59,7 +59,6 @@ contract BaseERC20 {
         uint256 amount,
         bytes memory userData,
         bytes memory operatorData,
-        bool requireReceptionAck
     ) public  {
     // 权限检查：确保调用者有权限从from地址转账
         if (from != msg.sender) {
