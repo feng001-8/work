@@ -17,7 +17,7 @@ contract BaseERC20 {
         name = "BaseERC20";
         symbol = "ZWG";
         decimals = 18;
-        totalSupply = 1000000000000000000000000;
+        totalSupply = 100000000;
         balances[msg.sender] = totalSupply;
     }
 
