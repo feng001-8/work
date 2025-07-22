@@ -8,10 +8,10 @@ const customLocalhost = {
   id: 31337, // 修正链ID为Anvil的默认值
   rpcUrls: {
     default: {
-      http: ['http://127.0.0.1:8546', 'http://localhost:8546'],
+      http: ['http://127.0.0.1:8545', 'http://localhost:8545'],
     },
     public: {
-      http: ['http://127.0.0.1:8546', 'http://localhost:8546'],
+      http: ['http://127.0.0.1:8545', 'http://localhost:8545'],
     },
   },
 }
@@ -24,7 +24,7 @@ export const config = createConfig({
   ],
   transports: {
     [sepolia.id]: http(),
-    [customLocalhost.id]: http('http://127.0.0.1:8546'),
+    [customLocalhost.id]: http('http://127.0.0.1:8545'),
   },
 })
 

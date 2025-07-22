@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 // 导入IERC20接口，用于与ERC20代币交互
@@ -153,7 +154,7 @@ contract NFTMarket is ITokenReceiver {
         // 将上架信息标记为非活跃
         listing.isActive = false;
         
-        // 将代币转给卖家
+        // 将代币转给卖家（从市场合约转出）
         bool success = paymentToken.transfer(listing.seller, amount);
         require(success, "NFTMarket: token transfer to seller failed");
         
@@ -175,11 +176,17 @@ contract NFTMarket is ITokenReceiver {
         // 检查买家是否有足够的代币
         require(paymentToken.balanceOf(msg.sender) >= listing.price, "NFTMarket: insufficient token balance");
         
-        // 编码listingId作为附加数据
-        bytes memory data = abi.encode(_listingId);
+        // 将上架信息标记为非活跃
+        listing.isActive = false;
         
-        // 调用transferWithCallbackAndData函数，将代币转给市场合约并附带listingId数据
-        bool success = paymentToken.transferWithCallbackAndData(address(this), listing.price, data);
-        require(success, "NFTMarket: token transfer with callback failed");
+        // 直接从买家转账给卖家
+        bool success = paymentToken.transferFrom(msg.sender, listing.seller, listing.price);
+        require(success, "NFTMarket: token transfer failed");
+        
+        // 处理NFT转移（卖家 -> 买家）
+        IERC721(listing.nftContract).transferFrom(listing.seller, msg.sender, listing.tokenId);
+        
+        // 触发NFT售出事件
+        emit NFTSold(_listingId, msg.sender, listing.seller, listing.nftContract, listing.tokenId, listing.price);
     }
 }

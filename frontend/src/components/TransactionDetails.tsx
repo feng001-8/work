@@ -1,7 +1,7 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from './ui/dialog'
 import { useEffect, useState } from 'react'
 import { useChainId } from 'wagmi'
-import { formatEther } from '@/lib/utils'
+import { formatEther } from '../lib/utils'
 
 interface TransactionDetailsProps {
   hash: string

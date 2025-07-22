@@ -1,0 +1,4875 @@
+
+
+                             _   _
+                            (_) | |
+      __ _   _ __   __   __  _  | |
+     / _` | | '_ \  \ \ / / | | | |
+    | (_| | | | | |  \ V /  | | | |
+     \__,_| |_| |_|   \_/   |_| |_|
+
+    1.1.0-stable (d484a00089 2025-04-30T13:50:49.971365000Z)
+    https://github.com/foundry-rs/foundry
+
+Available Accounts
+==================
+
+(0) 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000.000000000000000000 ETH)
+(1) 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 (10000.000000000000000000 ETH)
+(2) 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC (10000.000000000000000000 ETH)
+(3) 0x90F79bf6EB2c4f870365E785982E1f101E93b906 (10000.000000000000000000 ETH)
+(4) 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 (10000.000000000000000000 ETH)
+(5) 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc (10000.000000000000000000 ETH)
+(6) 0x976EA74026E726554dB657fA54763abd0C3a0aa9 (10000.000000000000000000 ETH)
+(7) 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 (10000.000000000000000000 ETH)
+(8) 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f (10000.000000000000000000 ETH)
+(9) 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 (10000.000000000000000000 ETH)
+
+Private Keys
+==================
+
+(0) 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+(1) 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+(2) 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
+(3) 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6
+(4) 0x47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a
+(5) 0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba
+(6) 0x92db14e403b83dfe3df233f83dfa3a0d7096f21ca9b0d6d6b8d88b2b4ec1564e
+(7) 0x4bbbf85ce3377467afe5d46f804f221813b2bb87f24d81f60f1fcdbf7cbf4356
+(8) 0xdbda1821b80551c9d65939329250298aa3472ba22feea921c0cf5d620ea67b97
+(9) 0x2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6
+
+Wallet
+==================
+Mnemonic:          test test test test test test test test test test test junk
+Derivation path:   m/44'/60'/0'/0/
+
+
+Chain ID
+==================
+
+31337
+
+Base Fee
+==================
+
+1000000000
+
+Gas Limit
+==================
+
+30000000
+
+Genesis Timestamp
+==================
+
+1753181044
+
+Genesis Number
+==================
+
+0
+
+Listening on 127.0.0.1:8545
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_chainId
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionCount
+eth_getCode
+eth_blockNumber
+eth_chainId
+eth_gasPrice
+eth_getBlockByNumber
+eth_blockNumber
+eth_gasPrice
+eth_getBlockByNumber
+eth_chainId
+eth_getCode
+eth_getTransactionCount
+eth_getBalance
+eth_getTransactionCount
+eth_getCode
+eth_getBalance
+eth_getCode
+eth_getBalance
+eth_getTransactionCount
+eth_getTransactionCount
+eth_getBalance
+eth_getCode
+eth_getCode
+eth_getBalance
+eth_getTransactionCount
+eth_getCode
+eth_getTransactionCount
+eth_getBalance
+eth_getBalance
+eth_getCode
+eth_getTransactionCount
+eth_getBalance
+eth_getCode
+eth_getTransactionCount
+eth_chainId
+eth_chainId
+eth_chainId
+eth_feeHistory
+eth_feeHistory
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0xd9c5b4ae0bdfc211630be05a88fe104ffe8b7437344da0512f708cb30c5dac71
+    Contract created: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+    Gas used: 1766344
+
+    Block Number: 1
+    Block Hash: 0x13d6df0faf03e70493c4ef2a40be9e4e1794186007c6ba2272f6d13e4f558713
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0x34c473f6a2863fc80b959b35fdff6cdc6acc3fcc224487e890d7815feff82807
+    Contract created: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+    Gas used: 2069997
+
+    Block Number: 2
+    Block Hash: 0xc7c230406173293ff6648d4c71ade6c17b70e0b834cba81af20e817c77a67a7c
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0x0c443d205b4a36ac2c267f0dd6c3decdefd214a0cbe567489f79f69d4229cb26
+    Contract created: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+    Gas used: 1797664
+
+    Block Number: 3
+    Block Hash: 0xc10597aa0ed6d0301d8f80edc7028d49837f6eb9532c2d033be3d45d99d3f13a
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0x85a276e0df647545df6a851a00a124512dc5f5ad56850dc3e6e06352aa4c886b
+    Gas used: 177212
+
+    Block Number: 4
+    Block Hash: 0x4456b192885d7060989b2606dac85e8e405d301b75ad9f191b3a861ddc276bc9
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0xb97b6eabd22b3be39ebb1b0ef1ebdb90fcbd7dc9d602172828f81f4290a99a35
+    Gas used: 46577
+
+    Block Number: 5
+    Block Hash: 0xb21e6eccee25fb11fcc891abd06eb54da7c5242cd294ca634e12114173de6aa5
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_estimateGas
+eth_sendRawTransaction
+
+    Transaction: 0x37e7d3e189645ea932e5e98c8127262b6b9e6ca3a3ba24587e98935fae38b161
+    Gas used: 165177
+
+    Block Number: 6
+    Block Hash: 0x8a5921d3c8a92c42ce4a44551cf03613211a3afb2bde920be5b82916e91ff757
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionCount
+eth_getCode
+eth_blockNumber
+eth_chainId
+eth_gasPrice
+eth_getBlockByNumber
+eth_blockNumber
+eth_gasPrice
+eth_getBlockByNumber
+eth_chainId
+eth_getBalance
+eth_getCode
+eth_getTransactionCount
+eth_getTransactionCount
+eth_getCode
+eth_getBalance
+eth_getCode
+eth_getTransactionCount
+eth_getBalance
+eth_getCode
+eth_getBalance
+eth_getTransactionCount
+eth_getCode
+eth_getTransactionCount
+eth_getBalance
+eth_getTransactionCount
+eth_getCode
+eth_getBalance
+eth_getTransactionCount
+eth_getBalance
+eth_getCode
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_chainId
+eth_chainId
+eth_blockNumber
+eth_chainId
+eth_getBlockByNumber
+eth_gasPrice
+eth_chainId
+eth_feeHistory
+eth_feeHistory
+eth_sendRawTransaction
+eth_sendRawTransaction
+
+    Transaction: 0x147055682c35cae593e58dc6f8a69c3315b1c2ad8fa21762a82cd074e380ba27
+    Contract created: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+    Gas used: 1766344
+
+    Block Number: 7
+    Block Hash: 0xf5b9fbcf5770644203cded762299de11af4d42f5e19bcf851bde771ade0d31aa
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+
+    Transaction: 0x19c40bf3c7865a92c77e6539a04f61983f31aaaf4bd346095886b01a83b6dd3d
+    Contract created: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853
+    Gas used: 758635
+
+    Block Number: 8
+    Block Hash: 0x7b670bdd9e746ee980d07cc6a8e9159f1a8165dfef2fe76abdd8a369504aee8e
+    Block Time: "Tue, 22 Jul 2025 10:44:11 +0000"
+
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_getTransactionReceipt
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_chainId
+eth_getTransactionCount
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_blockNumber
+eth_getCode
+eth_getCode
+eth_getBlockByNumber
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_gasPrice
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_blockNumber
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x0efad14e2ddac999ee63b2d29a3079d8480c2a71994fa3ed19313d08b7296ef5
+    Gas used: 46710
+
+    Block Number: 9
+    Block Hash: 0x384e1d4593a443953ce1dd6758b810f06189ec796ad0416f3682217834e1f96f
+    Block Time: "Tue, 22 Jul 2025 10:46:57 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x8), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_gasPrice
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f250000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getCode
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xb6b55f2500000000000000000000000000000000000000000000000098a7d9b8314c0000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: insufficient-allowance
+
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x305a67a80000000000000000000000000000000000000000000000000000000000000001) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: NFTMarket: listing is not active
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getBlockByNumber
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x305a67a80000000000000000000000000000000000000000000000000000000000000001) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None)
+    Error: Execution error: execution reverted: NFTMarket: listing is not active
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_getCode
+eth_getCode
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x70a08231000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x9a5c32d64f51ba590d6591ec012302559611ef37586fb908311069fe5067626a
+    Gas used: 148065
+
+    Block Number: 10
+    Block Hash: 0xcb39159ee56982042f619f6af0d1028c6ec00092d01ffe7f6a64ea41bb40eaf4
+    Block Time: "Tue, 22 Jul 2025 10:50:36 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0x9), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_gasPrice
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x6352211e0000000000000000000000000000000000000000000000000000000000000006) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted: ERC721: owner query for nonexistent token
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x00fdd58e000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb922660000000000000000000000000000000000000000000000000000000000000006) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_getCode
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x70a08231000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0xf65a01e42108a5ffc3e0085247d9f239cbc4a46f753da45d2728b46b758b9ce4
+    Gas used: 25474
+
+    Block Number: 11
+    Block Hash: 0x0098e8303cd7feb83cf0f448bd86b9c16b9694083bd7e6db58995d91b67aa0a5
+    Block Time: "Tue, 22 Jul 2025 10:51:18 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xa), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_gasPrice
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getCode
+eth_getCode
+eth_getBlockByNumber
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getBalance
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_getBalance
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+eth_call
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x5592ddf230f9a8afe19f0ed092a9f37c28b9cc6d5ce74009cd9133c8d85938e2
+    Gas used: 46710
+
+    Block Number: 12
+    Block Hash: 0xad7565f9e55b164e8f02106481f7d347b7e8584b1908b40a63f9d168837bfb62
+    Block Time: "Tue, 22 Jul 2025 10:54:04 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xb), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_gasPrice
+eth_getCode
+eth_getCode
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x70a08231000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x21f06fbc7e0e787df5df9e34c05e42c57e4d4d2a4a5c5a7f46b7e3dee590282a
+    Gas used: 85235
+
+    Block Number: 13
+    Block Hash: 0x855b3fb2e19e0c424726ef82e006658db8ce3267365f31a0868e1b3786f60200
+    Block Time: "Tue, 22 Jul 2025 10:54:44 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xc), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getCode
+eth_getCode
+eth_estimateGas
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x4028994d6d34214360bbf1e3a2d4330d5aeda6703d3cbcf6b00e0b6f988102ef
+    Gas used: 56859
+
+    Block Number: 14
+    Block Hash: 0x6f5d018ec03064edde9185aec818e15d5a19123ceb23a6822dfd02cce077a9e9
+    Block Time: "Tue, 22 Jul 2025 11:04:49 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xd), None)
+    Error: Execution error: execution reverted
+
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBlockByHash
+eth_getBalance
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_gasPrice
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_getBalance
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getCode
+eth_getCode
+eth_getBlockByNumber
+eth_estimateGas
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_blockNumber
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x95d89b41) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0xa513e6e4b8f2a923d98304ec87f64353c4d5c853)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x313ce567) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionCount
+eth_sendRawTransaction
+
+    Transaction: 0x380d2b84a6b9031b687614dd51ab636c07dd8dbc8ad8357ecf811707f91e8135
+    Gas used: 46710
+
+    Block Number: 15
+    Block Hash: 0xadf2004c4f4c197cfa268694b13672ecf2dfad794e1bc5faf1b1327df6f3df91
+    Block Time: "Tue, 22 Jul 2025 11:12:12 +0000"
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_getTransactionReceipt
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xe), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBlockByHash
+eth_getBalance
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xf), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xf), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_gasPrice
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_blockNumber
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_newFilter
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_uninstallFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_newFilter
+eth_newFilter
+eth_blockNumber
+eth_getBalance
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a780ac58cd00000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xf), None)
+    Error: Execution error: execution reverted
+
+eth_call
+
+RPC request failed:
+    Request: EthCall(WithOtherFields { inner: TransactionRequest { from: None, to: Some(Call(0x0165878a594ca255338adfa4d48449f69242eb8f)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x01ffc9a7d9b67a2600000000000000000000000000000000000000000000000000000000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(0xf), None)
+    Error: Execution error: execution reverted
+
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_uninstallFilter
+eth_uninstallFilter
+eth_blockNumber
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_newFilter
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_newFilter
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges
+eth_getFilterChanges

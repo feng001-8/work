@@ -1,6 +1,6 @@
 import { useChainId, useAccount } from 'wagmi'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { CONTRACTS } from '@/lib/contracts'
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
+import { CONTRACTS } from '../lib/contracts'
 
 export function DebugInfo() {
   const chainId = useChainId()

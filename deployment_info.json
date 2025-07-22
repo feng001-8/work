@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-07-22T18:44:11+08:00",
+  "chainId": 31337,
+  "rpcUrl": "http://127.0.0.1:8545",
+  "nftMarket": {
+    "erc20Token": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "simpleNFT": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512",
+    "nftMarket": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0"
+  },
+  "tokenBank": {
+    "erc20Token": "0x0165878a594ca255338adfa4d48449f69242eb8f",
+    "tokenBank": "0xa513e6e4b8f2a923d98304ec87f64353c4d5c853"
+  },
+  "accounts": {
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "privateKey": "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+  }
+}

@@ -23,6 +23,11 @@ interface IERC777Recipient {
     ) external;
 }
 
+// 定义接收代币回调的接口，用于NFT市场
+interface ITokenReceiver {
+    function tokensReceived(address from, uint256 amount, bytes calldata data) external returns (bool);
+}
+
 
 contract BaseERC20 {
     string public name;
@@ -40,7 +45,7 @@ contract BaseERC20 {
         name = "BaseERC20";
         symbol = "ZWG";
         decimals = 18;
-        totalSupply = 100000000;
+        totalSupply = 100000000 * 10**18; // 1亿代币，考虑18位小数
         balances[msg.sender] = totalSupply;
     }
 
@@ -68,9 +73,9 @@ contract BaseERC20 {
         }
     }
         require(balances[from] >= amount, "insufficient-balance");
-        balances[msg.sender] -= amount;
+        balances[from] -= amount;
         balances[to] += amount;
-        emit Transfer(msg.sender, to, amount);
+        emit Transfer(from, to, amount);
         if (isContract(to)) {
             IERC777Recipient(to).tokensReceived(operator, from, to, amount, userData, operatorData);
         }
@@ -113,5 +118,39 @@ contract BaseERC20 {
 
     function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
         return allowances[_owner][_spender];
+    }
+
+    // 带回调功能的转账函数，用于NFT市场
+    function transferWithCallback(address _to, uint256 _value) public returns (bool success) {
+        require(balances[msg.sender] >= _value, "insufficient-balance");
+        
+        balances[msg.sender] -= _value;
+        balances[_to] += _value;
+        
+        emit Transfer(msg.sender, _to, _value);
+        
+        // 如果接收方是合约，调用其tokensReceived函数
+        if (isContract(_to)) {
+            ITokenReceiver(_to).tokensReceived(msg.sender, _value, "");
+        }
+        
+        return true;
+    }
+
+    // 带回调功能和数据的转账函数，用于NFT市场
+    function transferWithCallbackAndData(address _to, uint256 _value, bytes calldata _data) public returns (bool success) {
+        require(balances[msg.sender] >= _value, "insufficient-balance");
+        
+        balances[msg.sender] -= _value;
+        balances[_to] += _value;
+        
+        emit Transfer(msg.sender, _to, _value);
+        
+        // 如果接收方是合约，调用其tokensReceived函数并传递数据
+        if (isContract(_to)) {
+            ITokenReceiver(_to).tokensReceived(msg.sender, _value, _data);
+        }
+        
+        return true;
     }
 }
