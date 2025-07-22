@@ -58,7 +58,7 @@ contract BaseERC20 {
         address to,
         uint256 amount,
         bytes memory userData,
-        bytes memory operatorData,
+        bytes memory operatorData
     ) public  {
     // 权限检查：确保调用者有权限从from地址转账
         if (from != msg.sender) {
