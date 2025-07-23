@@ -14,3 +14,6 @@ docs/
 .env
 
 # 忽略所有 .iml 文件
+node_modules
+.gitmodules
+.gitignore
