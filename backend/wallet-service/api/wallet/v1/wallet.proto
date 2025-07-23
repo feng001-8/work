@@ -1,0 +1,101 @@
+syntax = "proto3";
+
+package wallet.v1;
+
+import "google/api/annotations.proto";
+import "validate/validate.proto";
+
+option go_package = "wallet-service/api/wallet/v1;v1";
+option java_multiple_files = true;
+option java_package = "dev.kratos.api.wallet.v1";
+option java_outer_classname = "WalletProtoV1";
+
+// The wallet service definition.
+service Wallet {
+  // Generate a new private key and address
+  rpc GeneratePrivateKey (GeneratePrivateKeyRequest) returns (GeneratePrivateKeyReply) {
+    option (google.api.http) = {
+      post: "/api/v1/wallet/generate"
+      body: "*"
+    };
+  }
+
+  // Query ETH balance
+  rpc QueryBalance (QueryBalanceRequest) returns (QueryBalanceReply) {
+    option (google.api.http) = {
+      get: "/api/v1/wallet/balance/{address}"
+    };
+  }
+
+  // Query ERC20 token balance
+  rpc QueryTokenBalance (QueryTokenBalanceRequest) returns (QueryTokenBalanceReply) {
+    option (google.api.http) = {
+      get: "/api/v1/wallet/token-balance/{address}/{token_address}"
+    };
+  }
+
+  // Send ERC20 transfer transaction
+  rpc SendERC20Transfer (SendERC20TransferRequest) returns (SendERC20TransferReply) {
+    option (google.api.http) = {
+      post: "/api/v1/wallet/transfer"
+      body: "*"
+    };
+  }
+}
+
+// Generate private key request
+message GeneratePrivateKeyRequest {
+}
+
+// Generate private key response
+message GeneratePrivateKeyReply {
+  string private_key = 1;
+  string address = 2;
+}
+
+// Query balance request
+message QueryBalanceRequest {
+  string address = 1 [(validate.rules).string.min_len = 42];
+}
+
+// Query balance response
+message QueryBalanceReply {
+  string balance = 1; // in wei
+  string balance_eth = 2; // in ETH
+}
+
+// Query token balance request
+message QueryTokenBalanceRequest {
+  string address = 1 [(validate.rules).string.min_len = 42];
+  string token_address = 2 [(validate.rules).string.min_len = 42];
+}
+
+// Query token balance response
+message QueryTokenBalanceReply {
+  string balance = 1; // raw token amount
+  string balance_formatted = 2; // formatted with decimals
+  uint32 decimals = 3;
+}
+
+// Send ERC20 transfer request
+message SendERC20TransferRequest {
+  string private_key = 1 [(validate.rules).string.min_len = 64];
+  string token_address = 2 [(validate.rules).string.min_len = 42];
+  string to_address = 3 [(validate.rules).string.min_len = 42];
+  string amount = 4 [(validate.rules).string.min_len = 1];
+  uint64 gas_limit = 5;
+  string max_fee_per_gas = 6; // in wei
+  string max_priority_fee_per_gas = 7; // in wei
+}
+
+// Send ERC20 transfer response
+message SendERC20TransferReply {
+  string transaction_hash = 1;
+  string from_address = 2;
+  string to_address = 3;
+  string amount = 4;
+  uint64 gas_limit = 5;
+  string max_fee_per_gas = 6;
+  string max_priority_fee_per_gas = 7;
+  uint64 nonce = 8;
+}
