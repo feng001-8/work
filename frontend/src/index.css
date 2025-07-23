@@ -4,100 +4,108 @@
 
 @layer base {
   :root {
-    /* 主背景 - 温暖的白色 */
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    /* TRAE风格 - 深色主题背景 */
+    --background: 220 25% 6%;
+    --foreground: 210 20% 92%;
     
-    /* 卡片 - 纯白色带微妙阴影 */
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    /* 卡片 - 半透明玻璃效果 */
+    --card: 220 20% 10%;
+    --card-foreground: 210 20% 92%;
     
     /* 弹出层 */
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 220 20% 10%;
+    --popover-foreground: 210 20% 92%;
     
-    /* 主色调 - 现代蓝色渐变 */
+    /* 主色调 - TRAE蓝色 */
     --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 100%;
+    --primary-foreground: 220 25% 6%;
     
-    /* 次要色调 - 柔和的紫色 */
-    --secondary: 270 50% 95%;
-    --secondary-foreground: 270 15% 25%;
+    /* 次要色调 - 深色调 */
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 210 20% 85%;
     
-    /* 静音色调 - 中性灰 */
-    --muted: 215 20% 95%;
-    --muted-foreground: 215 15% 45%;
+    /* 静音色调 - 深灰 */
+    --muted: 220 20% 12%;
+    --muted-foreground: 215 15% 65%;
     
-    /* 强调色 - 活力橙色 */
-    --accent: 25 95% 65%;
+    /* 强调色 - 紫色渐变 */
+    --accent: 270 95% 65%;
     --accent-foreground: 0 0% 100%;
     
-    /* 成功色 - 清新绿色 */
-    --success: 142 76% 45%;
+    /* 成功色 - 青色 */
+    --success: 180 76% 50%;
     --success-foreground: 0 0% 100%;
     
-    /* 警告色 - 温暖黄色 */
+    /* 警告色 - 琥珀色 */
     --warning: 45 93% 58%;
     --warning-foreground: 45 15% 15%;
     
-    /* 危险色 - 现代红色 */
-    --destructive: 0 72% 55%;
+    /* 危险色 - 粉红色 */
+    --destructive: 350 72% 60%;
     --destructive-foreground: 0 0% 100%;
     
     /* 边框和输入 */
-    --border: 215 20% 88%;
-    --input: 215 20% 92%;
+    --border: 220 20% 20%;
+    --input: 220 20% 15%;
     --ring: 217 91% 60%;
     
     /* 圆角 */
-    --radius: 0.75rem;
+    --radius: 1rem;
+    
+    /* TRAE特色颜色 */
+    --trae-blue: 217 91% 60%;
+    --trae-purple: 270 95% 65%;
+    --trae-cyan: 180 76% 50%;
+    --trae-pink: 350 72% 60%;
+    --trae-amber: 45 93% 58%;
+    --trae-emerald: 160 76% 50%;
   }
 
-  .dark {
-    /* 深色主背景 - 深蓝灰色 */
-    --background: 215 30% 8%;
-    --foreground: 210 20% 92%;
+  .light {
+    /* 浅色主题 - 为了对比 */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
     
-    /* 深色卡片 */
-    --card: 215 25% 12%;
-    --card-foreground: 210 20% 92%;
+    /* 浅色卡片 */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
     
-    /* 深色弹出层 */
-    --popover: 215 25% 12%;
-    --popover-foreground: 210 20% 92%;
+    /* 浅色弹出层 */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
     
-    /* 深色主色调 - 亮蓝色 */
-    --primary: 217 91% 65%;
-    --primary-foreground: 215 30% 8%;
+    /* 浅色主色调 */
+    --primary: 217 91% 50%;
+    --primary-foreground: 0 0% 100%;
     
-    /* 深色次要色调 */
-    --secondary: 215 25% 18%;
-    --secondary-foreground: 210 20% 85%;
+    /* 浅色次要色调 */
+    --secondary: 270 50% 95%;
+    --secondary-foreground: 270 15% 25%;
     
-    /* 深色静音色调 */
-    --muted: 215 25% 15%;
-    --muted-foreground: 215 15% 65%;
+    /* 浅色静音色调 */
+    --muted: 215 20% 95%;
+    --muted-foreground: 215 15% 45%;
     
-    /* 深色强调色 */
-    --accent: 25 95% 60%;
+    /* 浅色强调色 */
+    --accent: 270 95% 55%;
     --accent-foreground: 0 0% 100%;
     
-    /* 深色成功色 */
-    --success: 142 76% 50%;
+    /* 浅色成功色 */
+    --success: 180 76% 40%;
     --success-foreground: 0 0% 100%;
     
-    /* 深色警告色 */
-    --warning: 45 93% 65%;
-    --warning-foreground: 45 15% 15%;
+    /* 浅色警告色 */
+    --warning: 45 93% 48%;
+    --warning-foreground: 0 0% 100%;
     
-    /* 深色危险色 */
-    --destructive: 0 72% 60%;
+    /* 浅色危险色 */
+    --destructive: 350 72% 50%;
     --destructive-foreground: 0 0% 100%;
     
-    /* 深色边框和输入 */
-    --border: 215 25% 20%;
-    --input: 215 25% 18%;
-    --ring: 217 91% 65%;
+    /* 浅色边框和输入 */
+    --border: 215 20% 88%;
+    --input: 215 20% 92%;
+    --ring: 217 91% 50%;
   }
 }
 
@@ -129,49 +137,138 @@
   }
 }
 
-/* 自定义动画 */
+/* TRAE风格动画和效果 */
 @layer utilities {
   .animate-fade-in {
-    animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.6s ease-out;
   }
   
   .animate-slide-up {
-    animation: slideUp 0.4s ease-out;
+    animation: slideUp 0.5s ease-out;
   }
   
   .animate-scale-in {
-    animation: scaleIn 0.3s ease-out;
+    animation: scaleIn 0.4s ease-out;
   }
   
   .animate-bounce-gentle {
-    animation: bounceGentle 0.6s ease-out;
+    animation: bounceGentle 0.8s ease-out;
   }
   
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-rotate-slow {
+    animation: rotateSlow 20s linear infinite;
+  }
+  
+  .animate-gradient {
+    animation: gradientShift 8s ease-in-out infinite;
+  }
+  
+  /* TRAE玻璃效果 */
   .glass-effect {
-    backdrop-filter: blur(12px);
-    background-color: hsl(var(--background) / 0.8);
+    backdrop-filter: blur(20px) saturate(180%);
+    background-color: hsl(var(--card) / 0.7);
+    border: 1px solid hsl(var(--border) / 0.3);
+    box-shadow: 0 8px 32px hsl(var(--foreground) / 0.1);
+  }
+  
+  .glass-effect-strong {
+    backdrop-filter: blur(40px) saturate(200%);
+    background-color: hsl(var(--card) / 0.9);
     border: 1px solid hsl(var(--border) / 0.5);
+    box-shadow: 0 16px 64px hsl(var(--foreground) / 0.2);
   }
   
-  .gradient-primary {
-    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+  /* TRAE渐变 */
+  .gradient-trae {
+    background: linear-gradient(135deg, 
+      hsl(var(--trae-blue)), 
+      hsl(var(--trae-purple)), 
+      hsl(var(--trae-cyan))
+    );
   }
   
-  .gradient-secondary {
-    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--muted)));
+  .gradient-trae-warm {
+    background: linear-gradient(135deg, 
+      hsl(var(--trae-pink)), 
+      hsl(var(--trae-amber)), 
+      hsl(var(--trae-emerald))
+    );
   }
   
+  .gradient-mesh {
+    background: radial-gradient(circle at 20% 50%, hsl(var(--trae-blue) / 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, hsl(var(--trae-purple) / 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, hsl(var(--trae-cyan) / 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 90% 90%, hsl(var(--trae-pink) / 0.3) 0%, transparent 50%);
+  }
+  
+  /* TRAE阴影效果 */
   .shadow-glow {
-    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    box-shadow: 0 0 30px hsl(var(--primary) / 0.4);
   }
   
+  .shadow-glow-purple {
+    box-shadow: 0 0 30px hsl(var(--trae-purple) / 0.4);
+  }
+  
+  .shadow-glow-cyan {
+    box-shadow: 0 0 30px hsl(var(--trae-cyan) / 0.4);
+  }
+  
+  /* TRAE悬停效果 */
   .hover-lift {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .hover-lift:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px hsl(var(--foreground) / 0.1);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 40px hsl(var(--foreground) / 0.15);
+  }
+  
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+    transform: scale(1.05);
+  }
+  
+  /* TRAE文本效果 */
+  .text-glow {
+    text-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, 
+      hsl(var(--trae-blue)), 
+      hsl(var(--trae-purple))
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* 网格背景 */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(hsl(var(--border) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  
+  /* 点状背景 */
+  .bg-dot-pattern {
+    background-image: radial-gradient(circle, hsl(var(--border) / 0.2) 1px, transparent 1px);
+    background-size: 20px 20px;
   }
 }
 
@@ -215,5 +312,63 @@
   }
   60% {
     transform: translateY(-2px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
   }
 }

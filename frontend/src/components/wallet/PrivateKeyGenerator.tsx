@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { generatePrivateKey, privateKeyToAccount } from 'viem/accounts'
-import { Key, Eye, EyeOff, Copy } from 'lucide-react'
+import { Key, Eye, EyeOff, Copy, Sparkles, Shield } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
@@ -68,75 +68,96 @@ export function PrivateKeyGenerator({ onWalletGenerated }: PrivateKeyGeneratorPr
   }
 
   return (
-    <Card className="glass-effect hover-lift animate-scale-in">
-      <CardHeader>
-        <CardTitle className="flex items-center gap-2">
-          <Key className="h-5 w-5 text-primary" />
-          生成私钥
+    <Card className="glass-effect-strong hover-lift border-border/30 shadow-glow-purple">
+      <CardHeader className="pb-6">
+        <CardTitle className="flex items-center gap-3 text-xl">
+          <div className="relative">
+            <div className="absolute inset-0 animate-pulse-glow rounded-full"></div>
+            <Key className="h-6 w-6 text-gradient relative z-10" />
+            <Sparkles className="h-3 w-3 text-trae-purple absolute -top-1 -right-1 animate-bounce-gentle" />
+          </div>
+          <span className="text-gradient">量子密钥生成器</span>
         </CardTitle>
-        <CardDescription>
-          生成新的以太坊钱包私钥和地址
+        <CardDescription className="text-foreground/70 text-base">
+          使用量子级加密算法生成安全的以太坊钱包
         </CardDescription>
       </CardHeader>
-      <CardContent className="space-y-4">
+      <CardContent className="space-y-6">
         <Button 
           onClick={generateWallet} 
-          className="w-full"
+          className="w-full gradient-trae hover-glow text-white font-semibold py-4 text-lg shadow-glow"
           size="lg"
         >
-          <Key className="h-4 w-4 mr-2" />
-          生成新钱包
+          <Sparkles className="h-5 w-5 mr-3 animate-pulse-glow" />
+          生成量子钱包
+          <Shield className="h-5 w-5 ml-3" />
         </Button>
         
         {generatedWallet && (
-          <div className="space-y-4 animate-slide-up">
-            <div className="space-y-2">
-              <Label className="text-sm font-semibold">钱包地址</Label>
-              <div className="flex items-center gap-2">
-                <Input 
-                  value={generatedWallet.address} 
-                  readOnly 
-                  className="font-mono text-xs"
-                />
-                <Button 
-                  size="sm" 
-                  variant="outline"
-                  onClick={() => copyToClipboard(generatedWallet.address, '地址')}
-                >
-                  <Copy className="h-3 w-3" />
-                </Button>
+          <div className="space-y-6 animate-slide-up">
+            <div className="glass-effect p-4 rounded-xl border border-border/20">
+              <div className="space-y-3">
+                <Label className="text-base font-semibold flex items-center gap-2">
+                  <div className="w-2 h-2 bg-trae-cyan rounded-full animate-pulse-glow"></div>
+                  钱包地址
+                </Label>
+                <div className="flex items-center gap-3">
+                  <Input 
+                    value={generatedWallet.address} 
+                    readOnly 
+                    className="font-mono text-sm glass-effect border-border/30 bg-card/50"
+                  />
+                  <Button 
+                    size="sm" 
+                    variant="outline"
+                    className="glass-effect hover-glow border-border/30"
+                    onClick={() => copyToClipboard(generatedWallet.address, '地址')}
+                  >
+                    <Copy className="h-4 w-4" />
+                  </Button>
+                </div>
               </div>
             </div>
             
-            <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label className="text-sm font-semibold">私钥</Label>
-                <Button 
-                  size="sm" 
-                  variant="ghost"
-                  onClick={() => setShowPrivateKey(!showPrivateKey)}
-                >
-                  {showPrivateKey ? <EyeOff className="h-3 w-3" /> : <Eye className="h-3 w-3" />}
-                </Button>
+            <div className="glass-effect p-4 rounded-xl border border-border/20">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <Label className="text-base font-semibold flex items-center gap-2">
+                    <div className="w-2 h-2 bg-trae-pink rounded-full animate-pulse-glow"></div>
+                    量子私钥
+                  </Label>
+                  <Button 
+                    size="sm" 
+                    variant="ghost"
+                    className="glass-effect hover-glow"
+                    onClick={() => setShowPrivateKey(!showPrivateKey)}
+                  >
+                    {showPrivateKey ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                  </Button>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Input 
+                    type={showPrivateKey ? 'text' : 'password'}
+                    value={generatedWallet.privateKey} 
+                    readOnly 
+                    className="font-mono text-sm glass-effect border-border/30 bg-card/50"
+                  />
+                  <Button 
+                    size="sm" 
+                    variant="outline"
+                    className="glass-effect hover-glow border-border/30"
+                    onClick={() => copyToClipboard(generatedWallet.privateKey, '私钥')}
+                  >
+                    <Copy className="h-4 w-4" />
+                  </Button>
+                </div>
+                <div className="flex items-center gap-2 p-3 rounded-lg bg-destructive/10 border border-destructive/20">
+                  <Shield className="h-4 w-4 text-destructive" />
+                  <p className="text-sm text-destructive font-medium">
+                    量子级安全提醒：请将私钥存储在安全的离线环境中
+                  </p>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <Input 
-                  type={showPrivateKey ? 'text' : 'password'}
-                  value={generatedWallet.privateKey} 
-                  readOnly 
-                  className="font-mono text-xs"
-                />
-                <Button 
-                  size="sm" 
-                  variant="outline"
-                  onClick={() => copyToClipboard(generatedWallet.privateKey, '私钥')}
-                >
-                  <Copy className="h-3 w-3" />
-                </Button>
-              </div>
-              <p className="text-xs text-muted-foreground">
-                ⚠️ 请妥善保管私钥，不要泄露给他人
-              </p>
             </div>
           </div>
         )}
