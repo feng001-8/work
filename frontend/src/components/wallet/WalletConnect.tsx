@@ -1,7 +1,7 @@
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
-import { Button } from './ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
-import { shortenAddress } from '../lib/utils'
+import { Button } from '../ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
+import { shortenAddress } from '../../lib/utils'
 import { Wallet, LogOut } from 'lucide-react'
 
 export function WalletConnect() {

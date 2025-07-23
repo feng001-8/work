@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useWatchContractEvent } from 'wagmi';
-import { NFT_MARKET_ABI, CONTRACTS } from '../lib/contracts';
+import { NFT_MARKET_ABI, CONTRACTS } from '../../lib/contracts';
 import { formatEther } from 'viem';
 
 interface EventLog {

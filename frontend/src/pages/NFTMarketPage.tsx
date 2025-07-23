@@ -1,9 +1,9 @@
 import React from 'react'
 import { useAccount } from 'wagmi'
 import { ShoppingBag, Sparkles, Palette } from 'lucide-react'
-import { WalletConnect } from '../components/WalletConnect'
-import NFTMarketDemo from '../components/NFTMarketDemo'
-import NFTMarketEventListener from '../components/NFTMarketEventListener'
+import { WalletConnect } from '../components/wallet/WalletConnect'
+import NFTMarketDemo from '../components/nft/NFTMarketDemo'
+import NFTMarketEventListener from '../components/nft/NFTMarketEventListener'
 import { DebugInfo } from '../components/DebugInfo'
 
 const NFTMarketPage: React.FC = () => {

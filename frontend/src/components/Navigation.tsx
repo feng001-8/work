@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Coins, ShoppingBag, Sparkles } from 'lucide-react'
+import { Coins, ShoppingBag, Sparkles, Wallet } from 'lucide-react'
 import { Button } from './ui/button'
-import { ThemeToggle } from './ThemeToggle'
+import { ThemeToggle } from './theme/ThemeToggle'
 
 const Navigation: React.FC = () => {
   const location = useLocation()
@@ -61,6 +61,22 @@ const Navigation: React.FC = () => {
               >
                 <ShoppingBag className="h-4 w-4" />
                 <span className="font-medium">NFT 市场</span>
+              </Button>
+            </Link>
+            
+            <Link to="/wallet">
+              <Button 
+                variant={location.pathname === '/wallet' ? 'default' : 'ghost'}
+                className={`
+                  flex items-center gap-2 transition-all duration-300 hover-lift
+                  ${location.pathname === '/wallet' 
+                    ? 'gradient-primary text-white shadow-glow' 
+                    : 'hover:bg-secondary/50'
+                  }
+                `}
+              >
+                <Wallet className="h-4 w-4" />
+                <span className="font-medium">钱包</span>
               </Button>
             </Link>
           </div>

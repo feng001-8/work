@@ -1,10 +1,10 @@
-import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { Toaster } from './components/ui/toaster'
 import { ThemeProvider } from './contexts/ThemeContext'
 import Navigation from './components/Navigation'
 import TokenBankPage from './pages/TokenBankPage'
 import NFTMarketPage from './pages/NFTMarketPage'
+import WalletPage from './pages/WalletPage'
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Route path="/" element={<Navigate to="/tokenbank" replace />} />
             <Route path="/tokenbank" element={<TokenBankPage />} />
             <Route path="/nft-market" element={<NFTMarketPage />} />
+            <Route path="/wallet" element={<WalletPage />} />
           </Routes>
         </main>
 

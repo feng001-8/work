@@ -1,8 +1,8 @@
 import { useAccount, useReadContract } from 'wagmi'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
-import { Button } from './ui/button'
-import { formatEther } from '../lib/utils'
-import { TOKEN_BANK_ABI, ERC20_ABI } from '../lib/contracts'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
+import { Button } from '../ui/button'
+import { formatEther } from '../../lib/utils'
+import { TOKEN_BANK_ABI, ERC20_ABI } from '../../lib/contracts'
 import { Coins, Wallet, Building2, RefreshCw } from 'lucide-react'
 import { useState } from 'react'
 
