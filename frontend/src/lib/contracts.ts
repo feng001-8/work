@@ -665,16 +665,16 @@ export const SIMPLE_NFT_ABI = [
 export const CONTRACTS = {
   // Sepolia 测试网地址
   SEPOLIA: {
-    TOKEN_BANK: '', // 替换为实际的 TokenBank 合约地址
-    ERC20_TOKEN: '0x887fBE8E6ff2551F8494E830bB3E229812839dE7', // 替换为实际的 ERC20 代币地址
-    NFT_MARKET: '', // 替换为实际的 NFTMarket 合约地址
-    SIMPLE_NFT: '', // 替换为实际的 SimpleNFT 合约地址
+    TOKEN_BANK: '0x67d269191c92caf3cd7723f116c85e6e9bf55933', // 替换为实际的 TokenBank 合约地址
+    ERC20_TOKEN: '0x4ed7c70f96b99c776995fb64377f0d4ab3b0e1c1', // 替换为实际的 ERC20 代币地址
+    NFT_MARKET: '0xa85233c63b9ee964add6f2cffe00fd84eb32338f', // 替换为实际的 NFTMarket 合约地址
+    SIMPLE_NFT: '0x322813fd9a801c5507c9de605d63cea4f2ce6c44', // 替换为实际的 SimpleNFT 合约地址
   },
   // 本地开发网络地址
   LOCALHOST: {
-    TOKEN_BANK: '0xa513e6e4b8f2a923d98304ec87f64353c4d5c853', // TokenBank 合约地址
-    ERC20_TOKEN: '0x5fbdb2315678afecb367f032d93f642f64180aa3', // TokenBank的ERC20 代币地址
-    NFT_MARKET: '0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0', // NFTMarket 合约地址
-    SIMPLE_NFT: '0xe7f1725e7734ce288f8367e1bb143e90bb3f0512', // SimpleNFT 合约地址
+    TOKEN_BANK: '0x67d269191c92caf3cd7723f116c85e6e9bf55933', // TokenBank 合约地址
+    ERC20_TOKEN: '0x4ed7c70f96b99c776995fb64377f0d4ab3b0e1c1', // TokenBank的ERC20 代币地址
+    NFT_MARKET: '0xa85233c63b9ee964add6f2cffe00fd84eb32338f', // NFTMarket 合约地址
+    SIMPLE_NFT: '0x322813fd9a801c5507c9de605d63cea4f2ce6c44', // SimpleNFT 合约地址
   }
 } as const;
