@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// 导入OpenZeppelin的ECDSA库用于签名验证
+import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+import "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
+
 // 导入IERC20接口，用于与ERC20代币交互
 interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
@@ -31,7 +35,30 @@ interface IExtendedERC20 is IERC20 {
 }
 
 // NFT市场合约
-contract NFTMarket is ITokenReceiver {
+contract NFTMarket is ITokenReceiver, EIP712 {
+    using ECDSA for bytes32;
+    
+    // 白名单许可结构体
+    struct WhitelistPermit {
+        address buyer;        // 白名单用户地址
+        uint256 listingId;    // 允许购买的 NFT listing ID
+        uint256 deadline;     // 签名过期时间
+        uint256 nonce;        // 防重放随机数
+    }
+    
+    // EIP-712 类型哈希
+    bytes32 private constant WHITELIST_PERMIT_TYPEHASH = keccak256(
+        "WhitelistPermit(address buyer,uint256 listingId,uint256 deadline,uint256 nonce)"
+    );
+    
+    // 项目方地址（有权签发白名单的地址）
+    address public projectOwner;
+    
+    // 用户nonce映射，防止重放攻击
+    mapping(address => uint256) public nonces;
+    
+    // 已使用的签名映射，防止签名重复使用
+    mapping(bytes32 => bool) public usedSignatures;
     // 扩展的ERC20代币合约地址
     IExtendedERC20 public paymentToken;
     
@@ -52,11 +79,17 @@ contract NFTMarket is ITokenReceiver {
     event NFTListed(uint256 indexed listingId, address indexed seller, address indexed nftContract, uint256 tokenId, uint256 price);
     event NFTSold(uint256 indexed listingId, address indexed buyer, address indexed seller, address nftContract, uint256 tokenId, uint256 price);
     event NFTListingCancelled(uint256 indexed listingId);
+    event WhitelistNFTSold(uint256 indexed listingId, address indexed buyer, address indexed seller, address nftContract, uint256 tokenId, uint256 price);
+    event ProjectOwnerChanged(address indexed oldOwner, address indexed newOwner);
     
-    // 构造函数，设置支付代币地址
-    constructor(address _paymentTokenAddress) {
+    // 构造函数，设置支付代币地址和项目方地址
+    constructor(address _paymentTokenAddress, address _projectOwner) 
+        EIP712("NFTMarket", "1") 
+    {
         require(_paymentTokenAddress != address(0), "NFTMarket: payment token address cannot be zero");
+        require(_projectOwner != address(0), "NFTMarket: project owner address cannot be zero");
         paymentToken = IExtendedERC20(_paymentTokenAddress);
+        projectOwner = _projectOwner;
     }
     
     // 上架NFT
@@ -188,5 +221,95 @@ contract NFTMarket is ITokenReceiver {
         
         // 触发NFT售出事件
         emit NFTSold(_listingId, msg.sender, listing.seller, listing.nftContract, listing.tokenId, listing.price);
+    }
+    
+    // 白名单购买NFT函数
+    function permitBuy(
+        uint256 _listingId,
+        uint256 _deadline,
+        uint256 _nonce,
+        bytes calldata _signature
+    ) external {
+        // 检查签名是否过期
+        require(block.timestamp <= _deadline, "NFTMarket: signature expired");
+        
+        // 检查上架信息是否存在且处于活跃状态
+        Listing storage listing = listings[_listingId];
+        require(listing.isActive, "NFTMarket: listing is not active");
+        
+        // 检查买家是否有足够的代币
+        require(paymentToken.balanceOf(msg.sender) >= listing.price, "NFTMarket: insufficient token balance");
+        
+        // 检查nonce是否正确（防止重放攻击）
+        require(_nonce == nonces[msg.sender], "NFTMarket: invalid nonce");
+        
+        // 构造签名数据
+        WhitelistPermit memory permit = WhitelistPermit({
+            buyer: msg.sender,
+            listingId: _listingId,
+            deadline: _deadline,
+            nonce: _nonce
+        });
+        
+        // 计算结构化数据哈希
+        bytes32 structHash = keccak256(abi.encode(
+            WHITELIST_PERMIT_TYPEHASH,
+            permit.buyer,
+            permit.listingId,
+            permit.deadline,
+            permit.nonce
+        ));
+        
+        // 计算EIP-712哈希
+        bytes32 hash = _hashTypedDataV4(structHash);
+        
+        // 检查签名是否已被使用
+        require(!usedSignatures[hash], "NFTMarket: signature already used");
+        
+        // 恢复签名者地址
+        address signer = hash.recover(_signature);
+        
+        // 验证签名者是否为项目方
+        require(signer == projectOwner, "NFTMarket: invalid signature");
+        
+        // 标记签名已使用
+        usedSignatures[hash] = true;
+        
+        // 增加用户nonce
+        nonces[msg.sender]++;
+        
+        // 将上架信息标记为非活跃
+        listing.isActive = false;
+        
+        // 处理代币转账（买家 -> 卖家）
+        bool success = paymentToken.transferFrom(msg.sender, listing.seller, listing.price);
+        require(success, "NFTMarket: token transfer failed");
+        
+        // 处理NFT转移（卖家 -> 买家）
+        IERC721(listing.nftContract).transferFrom(listing.seller, msg.sender, listing.tokenId);
+        
+        // 触发白名单NFT售出事件
+        emit WhitelistNFTSold(_listingId, msg.sender, listing.seller, listing.nftContract, listing.tokenId, listing.price);
+    }
+    
+    // 设置项目方地址（仅限当前项目方）
+    function setProjectOwner(address _newProjectOwner) external {
+        require(msg.sender == projectOwner, "NFTMarket: caller is not project owner");
+        require(_newProjectOwner != address(0), "NFTMarket: new project owner cannot be zero address");
+        
+        address oldOwner = projectOwner;
+        projectOwner = _newProjectOwner;
+        
+        emit ProjectOwnerChanged(oldOwner, _newProjectOwner);
+    }
+    
+    // 获取用户当前nonce
+    function getNonce(address _user) external view returns (uint256) {
+        return nonces[_user];
+    }
+    
+    // 检查签名是否已被使用
+    function isSignatureUsed(bytes32 _hash) external view returns (bool) {
+        return usedSignatures[_hash];
     }
 }
