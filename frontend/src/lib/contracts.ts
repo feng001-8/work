@@ -221,6 +221,75 @@ export const TOKEN_BANK_ABI = [
     "stateMutability": "nonpayable"
   },
   {
+    "type": "function",
+    "name": "depositWithPermit2",
+    "inputs": [
+      {
+        "name": "permitData",
+        "type": "tuple",
+        "internalType": "struct PermitTransferFrom",
+        "components": [
+          {
+            "name": "permitted",
+            "type": "tuple",
+            "internalType": "struct TokenPermissions",
+            "components": [
+              {
+                "name": "token",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "deadline",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "transferDetails",
+        "type": "tuple",
+        "internalType": "struct SignatureTransferDetails",
+        "components": [
+          {
+            "name": "to",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "requestedAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "signature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
     "type": "event",
     "name": "DelegateAuthorizationCreated",
     "inputs": [
@@ -928,12 +997,12 @@ export const SIMPLE_NFT_ABI = [
 export const CONTRACTS = {
   // Sepolia 测试网地址
   SEPOLIA: {
-    TOKEN_BANK: '0x18b46A37be9C945Cf0c44f5f2bC6f024eB04e071', // 最新部署的 TokenBank 合约地址
+    TOKEN_BANK: '0x1cA316a5A653B744dae53501Db3874dbEd4CD281', // 最新部署的 TokenBank 合约地址
     ERC20_TOKEN: '0x9B10283D311A758434212d8Cad690B3e8f4709Cd', // 新部署的 MyToken 合约地址
     NFT_MARKET: '0xa85233c63b9ee964add6f2cffe00fd84eb32338f', // 替换为实际的 NFTMarket 合约地址
     SIMPLE_NFT: '0x322813fd9a801c5507c9de605d63cea4f2ce6c44', // 替换为实际的 SimpleNFT 合约地址
   },
-  // 本地开发网络地址
+  // 本地开发网络地址  0x9B10283D311A758434212d8Cad690B3e8f4709Cd
   LOCALHOST: {
     TOKEN_BANK: '0x68B1D87F95878fE05B998F19b66F4baba5De1aed', // 最新部署的 TokenBank 合约地址
     ERC20_TOKEN: '0x4ed7c70f96b99c776995fb64377f0d4ab3b0e1c1', // TokenBank的ERC20 代币地址

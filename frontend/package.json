@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test:delegate": "npx tsx test/run-delegate-test.ts"
+    "test:delegate": "npx tsx test/run-delegate-test.ts",
+    "test:permit2-hardcoded": "vitest test/permit2Hardcoded.test.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

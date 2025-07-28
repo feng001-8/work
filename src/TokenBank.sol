@@ -11,6 +11,7 @@
 pragma solidity ^0.8.0;
 
 import "./myToken.sol";
+import "./interfaces/IPermit2.sol";
 
 contract TokenBank {
     // 记录每个地址在银行中的余额
@@ -18,6 +19,9 @@ contract TokenBank {
     
     // ERC20代币合约地址
     MyToken public token;
+    
+    // Permit2 合约实例
+    IPermit2 public permit2;
     
     // 委托授权结构体
     struct DelegateAuthorization {
@@ -38,8 +42,9 @@ contract TokenBank {
     event DelegateDepositExecuted(address indexed owner, address indexed delegate, uint256 amount, bytes32 authHash);
     
     // 构造函数，设置要管理的ERC20代币
-    constructor(address _tokenAddress) {
+    constructor(address _tokenAddress, address _permit2Address) {
         token = MyToken(_tokenAddress);
+        permit2 = IPermit2(_permit2Address);
     }
     
     // 存款函数
@@ -169,5 +174,31 @@ contract TokenBank {
         emit Deposit(owner, amount);
     }
     
+    // 使用 Permit2 进行签名授权存款
+    function depositWithPermit2(
+        PermitTransferFrom memory permitData,
+        SignatureTransferDetails calldata transferDetails,
+        address owner,
+        bytes calldata signature
+    ) external {
+        require(permitData.permitted.amount > 0, "Amount must be greater than 0");
+        require(transferDetails.to == address(this), "Transfer must be to TokenBank");
+        require(transferDetails.requestedAmount > 0, "Requested amount must be greater than 0");
+        require(transferDetails.requestedAmount <= permitData.permitted.amount, "Requested amount exceeds permitted amount");
+        require(block.timestamp <= permitData.deadline, "Permit expired");
+        
+        // 使用 Permit2 执行签名转账
+        permit2.permitTransferFrom(
+            permitData,
+            transferDetails,
+            owner,
+            signature
+        );
+        
+        // 更新用户在银行的存款余额
+        balances[owner] += transferDetails.requestedAmount;
+        
+        emit Deposit(owner, transferDetails.requestedAmount);
+    }
 
 }

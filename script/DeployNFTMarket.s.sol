@@ -25,12 +25,13 @@ contract DeployNFTMarket is Script {
         console.log("NFT symbol:", nft.symbol());
 
         // 3. 部署NFT市场合约
-        NFTMarket market = new NFTMarket(address(token));
+        address deployer = vm.addr(deployerPrivateKey);
+        NFTMarket market = new NFTMarket(address(token), deployer);
         console.log("NFT Market deployed to:", address(market));
         console.log("Payment token address:", address(market.paymentToken()));
+        console.log("Project owner address:", market.projectOwner());
 
         // 4. 铸造一些测试NFT
-        address deployer = vm.addr(deployerPrivateKey);
         uint256[] memory tokenIds = nft.batchMint(deployer, 5);
         console.log("Minted NFTs with IDs:");
         for (uint256 i = 0; i < tokenIds.length; i++) {

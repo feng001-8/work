@@ -9,7 +9,7 @@ import { CONTRACTS } from '../lib/contracts'
 import { WalletConnect } from '../components/wallet/WalletConnect'
 import { BalanceCard } from '../components/tokenbank/BalanceCard'
 import { DepositForm } from '../components/tokenbank/DepositForm'
-
+import { Permit2DepositForm } from '../components/tokenbank/Permit2DepositForm'
 import { WithdrawForm } from '../components/tokenbank/WithdrawForm'
 import { DelegateAuthorizationForm } from '../components/tokenbank/DelegateAuthorizationForm'
 import { DelegateExecutorForm } from '../components/tokenbank/DelegateExecutorForm'
@@ -251,15 +251,23 @@ const TokenBankPage: React.FC = () => {
                       </div>
                     </div>
                     
+                    {/* Permit2 存款 */}
+                    <div className="animate-slide-up" style={{animationDelay: '0.2s'}}>
+                      <Permit2DepositForm 
+                        tokenBankAddress={tokenBank}
+                        tokenAddress={token}
+                      />
+                    </div>
+                    
                     {/* 委托授权功能 */}
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                      <div className="animate-slide-up" style={{animationDelay: '0.2s'}}>
+                      <div className="animate-slide-up" style={{animationDelay: '0.25s'}}>
                         <DelegateAuthorizationForm 
                           tokenBankAddress={tokenBank}
                           tokenAddress={token}
                         />
                       </div>
-                      <div className="animate-slide-up" style={{animationDelay: '0.25s'}}>
+                      <div className="animate-slide-up" style={{animationDelay: '0.3s'}}>
                         <DelegateExecutorForm 
                           tokenBankAddress={tokenBank}
                           tokenAddress={token}

@@ -240,9 +240,6 @@ contract NFTMarket is ITokenReceiver, EIP712 {
         // 检查买家是否有足够的代币
         require(paymentToken.balanceOf(msg.sender) >= listing.price, "NFTMarket: insufficient token balance");
         
-        // 检查nonce是否正确（防止重放攻击）
-        require(_nonce == nonces[msg.sender], "NFTMarket: invalid nonce");
-        
         // 构造签名数据
         WhitelistPermit memory permit = WhitelistPermit({
             buyer: msg.sender,
@@ -263,8 +260,11 @@ contract NFTMarket is ITokenReceiver, EIP712 {
         // 计算EIP-712哈希
         bytes32 hash = _hashTypedDataV4(structHash);
         
-        // 检查签名是否已被使用
+        // 检查签名是否已被使用（优先检查，避免被nonce检查掩盖）
         require(!usedSignatures[hash], "NFTMarket: signature already used");
+        
+        // 检查nonce是否正确（防止重放攻击）
+        require(_nonce == nonces[msg.sender], "NFTMarket: invalid nonce");
         
         // 恢复签名者地址
         address signer = hash.recover(_signature);
@@ -311,5 +311,10 @@ contract NFTMarket is ITokenReceiver, EIP712 {
     // 检查签名是否已被使用
     function isSignatureUsed(bytes32 _hash) external view returns (bool) {
         return usedSignatures[_hash];
+    }
+    
+    // 获取域分隔符（用于测试）
+    function DOMAIN_SEPARATOR() external view returns (bytes32) {
+        return _domainSeparatorV4();
     }
 }

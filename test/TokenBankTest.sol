@@ -30,7 +30,9 @@ contract TokenBankTest is Test {
         token = new MyToken("Test Token", "TEST", INITIAL_SUPPLY / 10**18);
         
         // 部署 TokenBank 合约
-        tokenBank = new TokenBank(address(token));
+        // 使用模拟的 Permit2 地址进行测试
+        address mockPermit2 = address(0x31c2F6fcFf4F8759b3Bd5Bf0e1084A055615c768);
+        tokenBank = new TokenBank(address(token), mockPermit2);
         
         // 给测试账户分配代币
         token.transfer(owner, TEST_AMOUNT * 10);
