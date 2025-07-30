@@ -11,6 +11,7 @@
 pragma solidity ^0.8.0;
 
 import "./myToken.sol";
+import "./interfaces/IPermit2.sol";
 
 contract TokenBank {
     // 记录每个地址在银行中的余额
@@ -19,13 +20,31 @@ contract TokenBank {
     // ERC20代币合约地址
     MyToken public token;
     
+    // Permit2 合约实例
+    IPermit2 public permit2;
+    
+    // 委托授权结构体
+    struct DelegateAuthorization {
+        address owner;        // 代币所有者
+        address delegate;     // 被委托人
+        uint256 amount;       // 授权金额
+        uint256 deadline;     // 授权截止时间
+        bool used;           // 是否已使用
+    }
+    
+    // 委托授权映射：授权哈希 => 授权信息
+    mapping(bytes32 => DelegateAuthorization) public delegateAuthorizations;
+    
     // 事件
     event Deposit(address indexed user, uint256 amount);
     event Withdraw(address indexed user, uint256 amount);
+    event DelegateAuthorizationCreated(address indexed owner, address indexed delegate, uint256 amount, uint256 deadline, bytes32 authHash);
+    event DelegateDepositExecuted(address indexed owner, address indexed delegate, uint256 amount, bytes32 authHash);
     
     // 构造函数，设置要管理的ERC20代币
-    constructor(address _tokenAddress) {
+    constructor(address _tokenAddress, address _permit2Address) {
         token = MyToken(_tokenAddress);
+        permit2 = IPermit2(_permit2Address);
     }
     
     // 存款函数
@@ -96,4 +115,90 @@ contract TokenBank {
     function getTotalDeposits() external view returns (uint256) {
         return token.balanceOf(address(this));
     }
+    
+    // 执行委托授权存款：被委托人使用授权人的离线签名执行存款
+    function delegateDepositWithPermit(
+        address owner,        // 代币所有者（授权人）
+        address delegate,     // 被委托人地址
+        uint256 amount,       // 授权金额
+        uint256 deadline,     // 授权截止时间
+        uint8 v,              // permit签名参数 v
+        bytes32 r,            // permit签名参数 r
+        bytes32 s             // permit签名参数 s
+    ) external {
+        require(owner != address(0), "Invalid owner address");
+        require(delegate == msg.sender, "Only delegate can execute");
+        require(amount > 0, "Amount must be greater than 0");
+        require(deadline > block.timestamp, "Deadline must be in the future");
+        require(token.balanceOf(owner) >= amount, "Owner has insufficient tokens");
+        
+        // 生成授权哈希（用于防重放攻击）
+        bytes32 authHash = keccak256(abi.encodePacked(
+            owner,
+            delegate,
+            amount,
+            deadline,
+            block.timestamp
+        ));
+        
+        // 检查授权是否已被使用
+        require(!delegateAuthorizations[authHash].used, "Authorization already used");
+        
+        // 执行 permit 授权：通过离线签名授权 TokenBank 转移 owner 的代币
+        token.permit(
+            owner,          // 代币所有者
+            address(this),  // 被授权方（TokenBank 合约）
+            amount,         // 授权金额
+            deadline,       // 签名有效期
+            v, r, s         // 签名参数
+        );
+        
+        // 从 owner 转移代币到合约
+        bool success = token.transferFrom(owner, address(this), amount);
+        require(success, "Transfer failed");
+        
+        // 更新 owner 在银行的存款余额
+        balances[owner] += amount;
+        
+        // 保存授权信息防止重放攻击
+        delegateAuthorizations[authHash] = DelegateAuthorization({
+            owner: owner,
+            delegate: delegate,
+            amount: amount,
+            deadline: deadline,
+            used: true
+        });
+        
+        emit DelegateAuthorizationCreated(owner, delegate, amount, deadline, authHash);
+        emit DelegateDepositExecuted(owner, delegate, amount, authHash);
+        emit Deposit(owner, amount);
+    }
+    
+    // 使用 Permit2 进行签名授权存款
+    function depositWithPermit2(
+        PermitTransferFrom memory permitData,
+        SignatureTransferDetails calldata transferDetails,
+        address owner,
+        bytes calldata signature
+    ) external {
+        require(permitData.permitted.amount > 0, "Amount must be greater than 0");
+        require(transferDetails.to == address(this), "Transfer must be to TokenBank");
+        require(transferDetails.requestedAmount > 0, "Requested amount must be greater than 0");
+        require(transferDetails.requestedAmount <= permitData.permitted.amount, "Requested amount exceeds permitted amount");
+        require(block.timestamp <= permitData.deadline, "Permit expired");
+        
+        // 使用 Permit2 执行签名转账
+        permit2.permitTransferFrom(
+            permitData,
+            transferDetails,
+            owner,
+            signature
+        );
+        
+        // 更新用户在银行的存款余额
+        balances[owner] += transferDetails.requestedAmount;
+        
+        emit Deposit(owner, transferDetails.requestedAmount);
+    }
+
 }
