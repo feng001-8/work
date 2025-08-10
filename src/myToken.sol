@@ -16,7 +16,6 @@ contract MyToken is ERC20Permit, Ownable {
         string memory _symbol,
         uint256 _initSupply
     ) ERC20(_name, _symbol) ERC20Permit(_name) Ownable(msg.sender) {
-        // 修正拼写错误：msg.send → msg.sender
         _mint(msg.sender, _initSupply * 10 ** decimals());
     }
 

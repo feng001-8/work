@@ -1,0 +1,134 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .subtitle { font-family: 'Arial', sans-serif; font-size: 16px; font-weight: bold; fill: #34495e; }
+      .text { font-family: 'Arial', sans-serif; font-size: 12px; fill: #2c3e50; }
+      .small-text { font-family: 'Arial', sans-serif; font-size: 10px; fill: #7f8c8d; }
+      .contract-box { fill: #3498db; stroke: #2980b9; stroke-width: 2; }
+      .interface-box { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+      .user-box { fill: #2ecc71; stroke: #27ae60; stroke-width: 2; }
+      .process-box { fill: #f39c12; stroke: #e67e22; stroke-width: 2; }
+      .arrow { stroke: #34495e; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .dashed-arrow { stroke: #7f8c8d; stroke-width: 1.5; fill: none; stroke-dasharray: 5,5; marker-end: url(#arrowhead-gray); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e" />
+    </marker>
+    <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" />
+    </marker>
+  </defs>
+
+  <!-- 标题 -->
+  <text x="500" y="30" text-anchor="middle" class="title">InfinityDao 发币平台架构图</text>
+
+  <!-- 核心合约层 -->
+  <text x="50" y="80" class="subtitle">核心合约层</text>
+  
+  <!-- 工厂合约 -->
+  <rect x="50" y="100" width="200" height="80" rx="10" class="contract-box"/>
+  <text x="150" y="125" text-anchor="middle" class="text" fill="white">InfinityDaoLaunchPadFactory</text>
+  <text x="150" y="145" text-anchor="middle" class="small-text" fill="white">工厂合约</text>
+  <text x="150" y="165" text-anchor="middle" class="small-text" fill="white">创建启动板实例</text>
+
+  <!-- 启动板合约 -->
+  <rect x="300" y="100" width="200" height="80" rx="10" class="contract-box"/>
+  <text x="400" y="125" text-anchor="middle" class="text" fill="white">InfinityDaoLaunchPad</text>
+  <text x="400" y="145" text-anchor="middle" class="small-text" fill="white">启动板合约</text>
+  <text x="400" y="165" text-anchor="middle" class="small-text" fill="white">管理发行流程</text>
+
+  <!-- 示例代币合约 -->
+  <rect x="550" y="100" width="200" height="80" rx="10" class="contract-box"/>
+  <text x="650" y="125" text-anchor="middle" class="text" fill="white">StarDaoToken</text>
+  <text x="650" y="145" text-anchor="middle" class="small-text" fill="white">示例代币合约</text>
+  <text x="650" y="165" text-anchor="middle" class="small-text" fill="white">ERC20标准实现</text>
+
+  <!-- 接口层 -->
+  <text x="50" y="230" class="subtitle">接口层</text>
+  
+  <!-- IUSDT接口 -->
+  <rect x="150" y="250" width="150" height="60" rx="8" class="interface-box"/>
+  <text x="225" y="275" text-anchor="middle" class="text" fill="white">IUSDT</text>
+  <text x="225" y="295" text-anchor="middle" class="small-text" fill="white">USDT代币接口</text>
+
+  <!-- ILAUNCHPAD接口 -->
+  <rect x="350" y="250" width="150" height="60" rx="8" class="interface-box"/>
+  <text x="425" y="275" text-anchor="middle" class="text" fill="white">ILAUNCHPAD</text>
+  <text x="425" y="295" text-anchor="middle" class="small-text" fill="white">启动板接口</text>
+
+  <!-- 业务流程层 -->
+  <text x="50" y="370" class="subtitle">业务流程层</text>
+  
+  <!-- LaunchPad公开发行 -->
+  <rect x="100" y="390" width="180" height="70" rx="8" class="process-box"/>
+  <text x="190" y="415" text-anchor="middle" class="text" fill="white">LaunchPad公开发行</text>
+  <text x="190" y="435" text-anchor="middle" class="small-text" fill="white">• 设置发行参数</text>
+  <text x="190" y="450" text-anchor="middle" class="small-text" fill="white">• 用户参与投资</text>
+
+  <!-- Presale预售 -->
+  <rect x="320" y="390" width="180" height="70" rx="8" class="process-box"/>
+  <text x="410" y="415" text-anchor="middle" class="text" fill="white">Presale预售</text>
+  <text x="410" y="435" text-anchor="middle" class="small-text" fill="white">• 早期投资者参与</text>
+  <text x="410" y="450" text-anchor="middle" class="small-text" fill="white">• 优惠价格获取代币</text>
+
+  <!-- 参与者层 -->
+  <text x="600" y="370" class="subtitle">参与者层</text>
+  
+  <!-- 平台管理员 -->
+  <rect x="600" y="390" width="120" height="50" rx="8" class="user-box"/>
+  <text x="660" y="410" text-anchor="middle" class="text" fill="white">平台管理员</text>
+  <text x="660" y="425" text-anchor="middle" class="small-text" fill="white">系统管理</text>
+
+  <!-- 项目创建者 -->
+  <rect x="750" y="390" width="120" height="50" rx="8" class="user-box"/>
+  <text x="810" y="410" text-anchor="middle" class="text" fill="white">项目创建者</text>
+  <text x="810" y="425" text-anchor="middle" class="small-text" fill="white">发起项目</text>
+
+  <!-- 投资用户 -->
+  <rect x="675" y="460" width="120" height="50" rx="8" class="user-box"/>
+  <text x="735" y="480" text-anchor="middle" class="text" fill="white">投资用户</text>
+  <text x="735" y="495" text-anchor="middle" class="small-text" fill="white">参与投资</text>
+
+  <!-- 费用分配机制 -->
+  <text x="50" y="570" class="subtitle">费用分配机制</text>
+  
+  <rect x="50" y="590" width="900" height="80" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="70" y="615" class="text">• 平台费用: 从每笔交易中收取一定比例的费用</text>
+  <text x="70" y="635" class="text">• 项目方收益: 扣除平台费用后的资金归项目方所有</text>
+  <text x="70" y="655" class="text">• 投资者保护: 设置最小筹资目标，未达到则退还投资</text>
+
+  <!-- 安全机制 -->
+  <text x="50" y="720" class="subtitle">安全机制</text>
+  
+  <rect x="50" y="740" width="450" height="50" rx="8" fill="#e8f5e8" stroke="#27ae60" stroke-width="1"/>
+  <text x="70" y="760" class="small-text">• 权限控制: 使用OpenZeppelin AccessControl</text>
+  <text x="70" y="775" class="small-text">• 重入保护: ReentrancyGuard防护</text>
+  
+  <rect x="520" y="740" width="430" height="50" rx="8" fill="#fff3cd" stroke="#f39c12" stroke-width="1"/>
+  <text x="540" y="760" class="small-text">• 暂停机制: Pausable紧急暂停功能</text>
+  <text x="540" y="775" class="small-text">• 参数验证: 严格的输入参数检查</text>
+
+  <!-- 连接线 -->
+  <!-- 工厂到启动板 -->
+  <line x1="250" y1="140" x2="300" y2="140" class="arrow"/>
+  <text x="275" y="135" text-anchor="middle" class="small-text">创建</text>
+
+  <!-- 启动板到代币 -->
+  <line x1="500" y1="140" x2="550" y2="140" class="arrow"/>
+  <text x="525" y="135" text-anchor="middle" class="small-text">管理</text>
+
+  <!-- 接口到合约的连接 -->
+  <line x1="225" y1="250" x2="150" y2="180" class="dashed-arrow"/>
+  <line x1="425" y1="250" x2="400" y2="180" class="dashed-arrow"/>
+
+  <!-- 业务流程到启动板 -->
+  <line x1="190" y1="390" x2="350" y2="180" class="dashed-arrow"/>
+  <line x1="410" y1="390" x2="450" y2="180" class="dashed-arrow"/>
+
+  <!-- 用户到业务流程 -->
+  <line x1="660" y1="440" x2="280" y2="425" class="dashed-arrow"/>
+  <line x1="810" y1="440" x2="500" y2="425" class="dashed-arrow"/>
+  <line x1="735" y1="460" x2="410" y2="460" class="dashed-arrow"/>
+
+</svg>
